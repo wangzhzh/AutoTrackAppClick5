@@ -245,9 +245,9 @@ public class MainActivity extends AppCompatActivity {
     private void showMultiChoiceDialog(Context context) {
         Dialog dialog;
         boolean[] selected = new boolean[]{true, true, true, true};
-        CharSequence[] items = {"北京", "上海", "深圳", "合肥"};
+        CharSequence[] items = {"北京", "上海", "广州", "深圳"};
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle("神策数据在哪些城市有服务团队？");
+        builder.setTitle("中国的一线城市有哪几个？");
         DialogInterface.OnMultiChoiceClickListener mutiListener =
                 new DialogInterface.OnMultiChoiceClickListener() {
 
